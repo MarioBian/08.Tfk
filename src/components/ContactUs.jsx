@@ -166,7 +166,7 @@ const ContactUs = () => {
               htmlFor="agree-to-policies"
               className="text-sm/6 text-gray-400"
             >
-              By selecting this, you agree to our{" "}
+              Genom att trycka, accepterar du våra{" "}
               <a
                 href="#"
                 className="font-semibold whitespace-nowrap text-indigo-400"
