@@ -1,6 +1,7 @@
 import React from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Form } from "react-router-dom";
+import Footer from "./Footer";
 
 const ContactUs = () => {
   return (
@@ -188,6 +189,8 @@ const ContactUs = () => {
           </button>
         </div>
       </form>
+
+      <Footer />
     </div>
   );
 };

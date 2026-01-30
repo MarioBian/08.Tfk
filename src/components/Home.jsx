@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -58,9 +59,10 @@ const Home = () => {
             <li>✔ Certifierade och försäkrade</li>
             <li>✔ Vi utför arbetet nogrant och ser till så kunden är nöjd.</li>
             <li>
-              ✔ Snabb service & bra priser 10 procent rabatt på din befintliga
-              offert
+              ✔ 15 procent rabatt på din befintliga offert{" "}
+              <strong>gäller endast trädfällning</strong>
             </li>
+            <li>✔ Snabb service & bra priser</li>
             <li>✔ Gratis offert</li>
           </ul>
         </div>

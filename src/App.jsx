@@ -4,6 +4,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import ContactUs from "./components/ContactUs";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
