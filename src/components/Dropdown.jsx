@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = () => {
+const Dropdown = () => {
   return (
     <div className="relative inline-block text-left">
       <button
@@ -46,4 +46,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default Dropdown;
