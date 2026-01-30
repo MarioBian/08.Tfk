@@ -1,5 +1,6 @@
 import React from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { Form } from "react-router-dom";
 
 const ContactUs = () => {
   return (
@@ -24,6 +25,7 @@ const ContactUs = () => {
           Skicka in dina uppgifter så kontaktar vi dig så snart vi kan.
         </p>
       </div>
+
       <form
         action="#"
         method="POST"
