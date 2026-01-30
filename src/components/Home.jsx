@@ -42,10 +42,10 @@ const Home = () => {
               <p>Altaner, staket, förråd och mindre byggprojekt.</p>
             </div>
 
-            {/* <div className="bg-white p-6 rounded-xl shadow">
+            <div className="bg-white p-6 rounded-xl shadow">
               <h3 className="text-xl font-semibold mb-2">Röjning</h3>
               <p>Tomtröjning, slyröjning och markarbete.</p>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
