@@ -6,6 +6,7 @@ const Nav = () => {
       <div className="flex items-center gap-4">
         <a className="hover:underline">Hem</a>
         <a className="hover:underline">Om oss</a>
+        <a className="hover:underline">Bilder</a>
         <a className="hover:underline">Kontakt</a>
         <a className="hover:underline">Prislista</a>
         <a className="hover:underline">Offerter</a>

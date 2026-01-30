@@ -58,7 +58,7 @@ const Home = () => {
             <li>✔ Certifierade och försäkrade</li>
             <li>✔ Vi utför arbetet nogrant och ser till så kunden är nöjd.</li>
             <li>
-              ✔ Snabb service & bra priser 15 procent rabatt på din befintliga
+              ✔ Snabb service & bra priser 10 procent rabatt på din befintliga
               offert
             </li>
             <li>✔ Gratis offert</li>
