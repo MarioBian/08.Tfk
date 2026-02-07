@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const PriceListConstruction = () => {
-  return (
-    <div>PriceListConstruction</div>
-  )
-}
+  const [priceList] = useState([]);
 
-export default PriceListConstruction
+  return <div>PriceListConstruction</div>;
+};
+
+export default PriceListConstruction;
