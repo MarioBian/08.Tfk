@@ -53,6 +53,40 @@
     ]
   },
   {
+    "category": "Bortforsling & städning",
+    "services": [
+      {
+        "id": 7,
+        "name": "Bortforsling av ris",
+        "priceMin": 500,
+        "priceMax": 2000,
+        "unit": "tillfalle"
+      },
+      {
+        "id": 8,
+        "name": "Bortforsling av stam",
+        "priceMin": 700,
+        "priceMax": 2500,
+        "unit": "tillfalle"
+      },
+      {
+        "id": 9,
+        "name": "Flisning på plats",
+        "priceMin": 900,
+        "priceMax": 2000,
+        "unit": "tillfalle"
+      },
+      {
+        "id": 10,
+        "name": "Städning & uppsamling",
+        "priceMin": 0,
+        "priceMax": 500,
+        "unit": "tillfalle",
+        "textNote": "Ingår / 500 kr"
+      }
+    ]
+  },
+  {
     "category": "Tillval & extratjänster",
     "services": [
       {
