@@ -1,0 +1,82 @@
+[
+  {
+    "category": "Grundläggande trädfällning",
+    "services": [
+      {
+        "id": 1,
+        "name": "Enkel trädfällning",
+        "priceMin": 1500,
+        "priceMax": 2500,
+        "unit": "st"
+      },
+      {
+        "id": 2,
+        "name": "Medelstor trädfällning",
+        "priceMin": 2500,
+        "priceMax": 5000,
+        "unit": "st"
+      },
+      {
+        "id": 3,
+        "name": "Advancerad trädfällning",
+        "priceMin": 5000,
+        "priceMax": 12000,
+        "unit": "st"
+      }
+    ]
+  },
+  {
+    "category": "Sektionsfällning (klättrning / riggning)",
+    "services": [
+      {
+        "id": 4,
+        "name": "Sektionsfällning – mindre träd",
+        "priceMin": 3000,
+        "priceMax": 6000,
+        "unit": "st"
+      },
+      {
+        "id": 5,
+        "name": "Sektionsfällning – medelstor träd",
+        "priceMin": 6000,
+        "priceMax": 10000,
+        "unit": "st"
+      },
+      {
+        "id": 6,
+        "name": "Sektionsfällning – stora träd",
+        "priceMin": 10000,
+        "priceMax": 20000,
+        "unit": "st+",
+        "textNote": "10 000 - 20 000+ kr"
+      }
+    ]
+  },
+  {
+    "category": "Tillval & extratjänster",
+    "services": [
+      {
+        "id": 11,
+        "name": "Stubbfräsning",
+        "priceMin": 500,
+        "priceMax": 3000,
+        "unit": "stubbe"
+      },
+      {
+        "id": 12,
+        "name": "Kapning till vedlängder",
+        "priceMin": 300,
+        "priceMax": 800,
+        "unit": "tillfälle"
+      },
+      {
+        "id": 13,
+        "name": "Första besöket för offert",
+        "priceMin": 0,
+        "priceMax": 0,
+        "unit": "gratis",
+        "textNote": "Ingår / Gratis"
+      }
+    ]
+  }
+]
