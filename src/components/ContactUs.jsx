@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 const ContactUs = () => {
   return (
-    <div className="isolate bg-green-900 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate bg-green-700 px-6 py-24 sm:py-32 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -22,7 +22,7 @@ const ContactUs = () => {
         <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
           Kontakta oss
         </h2>
-        <p className="mt-2 text-lg/8 text-gray-400">
+        <p className="mt-2 text-lg/8 text-white">
           Skicka in dina uppgifter så kontaktar vi dig så snart vi kan.
         </p>
       </div>
