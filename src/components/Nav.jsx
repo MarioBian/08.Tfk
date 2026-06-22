@@ -8,7 +8,8 @@ const Nav = () => {
         <a className="hover:underline">Om oss</a>
         <a className="hover:underline">Bilder</a>
         <a className="hover:underline">Kontakt</a>
-        <a className="hover:underline">Prislista</a>
+        <a className="hover:underline">Prislista Trädfällning</a>
+        <a className="hover:underline">Prislista Bygg & Riv</a>
         <a className="hover:underline">Offerter</a>
       </div>
 
