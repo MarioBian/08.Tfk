@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import priceData from "../priceList/priceListConstruction";
+import React from "react";
+import priceData from "../priceList/priceListConstruction.json";
 
 function formatPrice(service) {
   if (service.textNote) return service.textNote;
@@ -29,10 +29,25 @@ function ServiceRow({ service }) {
 
 function CategoryCard({ category, services }) {
   return (
+    <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden">
+      <div className="px-5 py-4 border-b border-gray-100">
+        <h3 className="font-semibold text-gray-900 text-base">{category}</h3>
+      </div>
+      <div className="px-5">
+        {services.map((service) => (
+          <ServiceRow key={service.id} service={service} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const PriceListConstruction = () => {
+  return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
-          Prislista
+          Prislista Bygg & Riv
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {priceData.map((group) => (
@@ -45,23 +60,6 @@ function CategoryCard({ category, services }) {
         </div>
       </div>
     </section>
-  );
-}
-
-const PriceListConstruction = () => {
-  const [priceList] = useState([]);
-
-  return (
-    <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-      <div className="px-5 py-4 border-b border-gray-100">
-        <h3 className="font-semibold text-gray-900 text-base">{category}</h3>
-      </div>
-      <div className="px-5">
-        {services.map((service) => (
-          <ServiceRow key={service.id} service={service} />
-        ))}
-      </div>
-    </div>
   );
 };
 

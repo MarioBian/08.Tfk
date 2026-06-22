@@ -6,6 +6,7 @@ import ContactUs from "./components/ContactUs";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import PriceLists from "./components/PriceLists";
+import PriceListConstruction from "./components/PriceListConstruction";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <Home />
       <PriceLists />
+      <PriceListConstruction />
       <ContactUs />
     </div>
   );
