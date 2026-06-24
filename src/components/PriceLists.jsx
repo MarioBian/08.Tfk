@@ -1,5 +1,5 @@
 import React from "react";
-import priceData from "../priceList/priceListCompany.json";
+import priceData from "../priceList/priceListPrivate.json";
 
 function formatPrice(service) {
   if (service.textNote) return service.textNote;

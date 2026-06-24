@@ -5,22 +5,22 @@
       {
         "id": 1,
         "name": "Enkel trädfällning",
-        "priceMin": 1500,
-        "priceMax": 2500,
+        "priceMin": 1875,
+        "priceMax": 3125,
         "unit": "st"
       },
       {
         "id": 2,
         "name": "Medelstor trädfällning",
-        "priceMin": 2500,
-        "priceMax": 5000,
+        "priceMin": 3125,
+        "priceMax": 6250,
         "unit": "st"
       },
       {
         "id": 3,
         "name": "Advancerad trädfällning",
-        "priceMin": 5000,
-        "priceMax": 12000,
+        "priceMin": 6250,
+        "priceMax": 15000,
         "unit": "st"
       }
     ]
@@ -31,15 +31,15 @@
       {
         "id": 4,
         "name": "Sektionsfällning – mindre träd",
-        "priceMin": 3000,
-        "priceMax": 6000,
+        "priceMin": 3750,
+        "priceMax": 7500,
         "unit": "st"
       },
       {
         "id": 5,
         "name": "Sektionsfällning – medelstor träd",
-        "priceMin": 6000,
-        "priceMax": 10000,
+        "priceMin": 7500,
+        "priceMax": 12500,
         "unit": "st"
       },
       {
@@ -58,22 +58,22 @@
       {
         "id": 7,
         "name": "Bortforsling av ris",
-        "priceMin": 500,
-        "priceMax": 2000,
+        "priceMin": 625,
+        "priceMax": 2500,
         "unit": "tillfalle"
       },
       {
         "id": 8,
         "name": "Bortforsling av stam",
-        "priceMin": 700,
-        "priceMax": 2500,
+        "priceMin": 875,
+        "priceMax": 3125,
         "unit": "tillfalle"
       },
       {
         "id": 9,
         "name": "Flisning på plats",
-        "priceMin": 900,
-        "priceMax": 2000,
+        "priceMin": 1125,
+        "priceMax": 2500,
         "unit": "tillfalle"
       },
       {
@@ -92,15 +92,15 @@
       {
         "id": 11,
         "name": "Stubbfräsning",
-        "priceMin": 500,
-        "priceMax": 3000,
+        "priceMin": 625,
+        "priceMax": 3750,
         "unit": "stubbe"
       },
       {
         "id": 12,
         "name": "Kapning till vedlängder",
-        "priceMin": 300,
-        "priceMax": 800,
+        "priceMin": 375,
+        "priceMax": 1000,
         "unit": "tillfälle"
       },
       {
