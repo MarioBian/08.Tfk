@@ -6,6 +6,7 @@ import ContactUs from "./components/ContactUs";
 import Home from "./components/Home";
 import PriceLists from "./components/PriceLists";
 import PriceListConstruction from "./components/PriceListConstruction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/prislista-tradfallning" element={<PriceLists />} />
         <Route path="/prislista-bygg" element={<PriceListConstruction />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
