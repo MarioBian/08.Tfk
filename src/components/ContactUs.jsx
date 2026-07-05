@@ -174,7 +174,7 @@ const ContactUs = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#2d4a2d] hover:bg-[#3a5e3a] text-white font-semibold py-3.5 rounded-lg transition text-sm tracking-wide"
+                  className="w-full bg-[#2d4a2d] hover:bg-[#3a5e3a] text-white font-semibold py-3.5 rounded-lg transition text-sm tracking-wide cursor-pointer"
                 >
                   Skicka förfrågan
                 </button>
