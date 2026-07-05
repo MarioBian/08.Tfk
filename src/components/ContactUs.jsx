@@ -32,8 +32,8 @@ const ContactUs = () => {
 
               <div className="space-y-5 mt-12">
                 {[
-                  { icon: "📞", label: "Telefon", value: "070-123 45 67" },
-                  { icon: "✉️", label: "E-post", value: "info@tfk.se" },
+                  // { icon: "📞", label: "Telefon", value: "070-123 45 67" },
+                  { icon: "✉️", label: "E-post", value: "tfk@hotmail.com" },
                   {
                     icon: "📍",
                     label: "Område",
