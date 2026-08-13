@@ -7,11 +7,13 @@ import Home from "./components/Home";
 import PriceLists from "./components/PriceLists";
 import PriceListConstruction from "./components/PriceListConstruction";
 import Footer from "./components/Footer";
+import Cookies from "cookies";
 
 function App() {
   return (
     <Router>
       <Nav />
+      <Cookies />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/kontakt" element={<ContactUs />} />
