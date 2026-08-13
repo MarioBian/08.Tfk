@@ -65,13 +65,6 @@ const Home = () => {
             >
               Begär gratis offert →
             </Link>
-
-            <a
-              href="tel:0701234567"
-              className="border border-white/30 hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-xl transition text-sm"
-            >
-              📞 070-123 45 67
-            </a>
           </div>
         </div>
       </section>
@@ -165,13 +158,6 @@ const Home = () => {
             >
               Begär gratis offert →
             </Link>
-
-            <a
-              href="tel:0701234567"
-              className="border border-white/20 hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-xl transition text-sm"
-            >
-              📞 070-123 45 67
-            </a>
           </div>
         </div>
       </section>
