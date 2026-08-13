@@ -8,6 +8,7 @@ import PriceLists from "./components/PriceLists";
 import PriceListConstruction from "./components/PriceListConstruction";
 import Footer from "./components/Footer";
 import Cookies from "./components/Cookies";
+import Pictures from "./components/Pictures";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Cookies />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Bilder" element={<Pictures />} />
         <Route path="/kontakt" element={<ContactUs />} />
         <Route path="/prislista-tradfallning" element={<PriceLists />} />
         <Route path="/prislista-bygg" element={<PriceListConstruction />} />
