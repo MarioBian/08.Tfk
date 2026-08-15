@@ -61,7 +61,7 @@ function AboutUs() {
             </h2>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
               Trädfällarkompisarna grundades av 5 vänner som delade en passion
-              för skogsarbete och hantverk. Det som började som Hobby arbete
+              för skogsarbete och hantverk. Det som började som hobby arbete
               bland vänner har vuxit till ett fullskaligt företag med ett
               dedikerat team.
             </p>
