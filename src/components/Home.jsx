@@ -29,7 +29,7 @@ const reasons = [
   { icon: "⭐", text: "Noggrant arbete — kunden alltid nöjd" },
   {
     icon: "💸",
-    text: "15% rabatt på befintlig offert (trädfällning)",
+    text: "Vi erbjuder 15 % rabatt på angiven offert, under förutsättning att offertpriset bedöms vara marknadsmässigt och konkurrenskraftigt.",
   },
   { icon: "⚡", text: "Snabb service & bra priser" },
   { icon: "📋", text: "Gratis offert utan förpliktelser" },
